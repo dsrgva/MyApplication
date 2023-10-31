@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mainbackground" />
+
+    <ImageView
+        android:id="@+id/main_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/cats" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="360dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="200dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edEmail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="пароль"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_stroke_black_press_white"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/reg"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonReg3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_stroke_black_press_white"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/back"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>
