@@ -8,4 +8,6 @@
     <string name="reg"> Зарегистрироваться </string>
     <string name="reg1"> Регистрация </string>
 <string name="name">МИНИ-ВИКТОРИНА</string>
+    <string name="reg2"> Нет аккаунта? </string>
+
 </resources>

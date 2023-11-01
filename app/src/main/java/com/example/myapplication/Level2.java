@@ -166,7 +166,7 @@ public class Level2 extends AppCompatActivity {
                     }
                 }else if (event.getAction() == MotionEvent.ACTION_UP){
                     if (numLeft > numRight){
-                        if(count < 10){
+                        if(count < 20){
                             count = count + 1;
                         }
                         for (int i=0; i< 20; i++){
@@ -233,7 +233,7 @@ public class Level2 extends AppCompatActivity {
                     }
                 }else if (event.getAction() == MotionEvent.ACTION_UP){
                     if (numLeft < numRight){
-                        if(count < 10){
+                        if(count < 20){
                             count = count + 1;
                         }
                         for (int i=0; i< 20; i++){
